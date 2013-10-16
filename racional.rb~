@@ -43,10 +43,16 @@ end
 f1 = Fraccion.new(3, 2)
 f2 = Fraccion.new(5, 4)
 
-puts "Fracción 1: #{f1.to_s}"
-puts "Fracción 2: #{f2.to_s}"
-puts "#{f1} + #{f2} = #{f1+f2}"
+puts "Fracción 1: "
+puts "#{f1.to_s}\n"
+puts "Fracción 2: "
+puts "#{f2.to_s}\n"
+puts "Suma: "
+puts "#{f1} + #{f2} = #{f1+f2}/n"
+puts "Resta: "
 puts "#{f1} - #{f2} = #{f1-f2}"
+puts "Multiplicación: "
 puts "#{f1} * #{f2} = #{f1*f2}"
+puts "División: "
 puts "#{f1} / #{f2} = #{f1/f2}"
 

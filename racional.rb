@@ -40,13 +40,27 @@ class Fraccion
 	  
 end
 
-f1 = Fraccion.new(3, 2)
-f2 = Fraccion.new(5, 4)
+f1 = Fraccion.new(7, 2)
+f2 = Fraccion.new(1, 3)
 
-puts "Fracción 1: #{f1.to_s}"
-puts "Fracción 2: #{f2.to_s}"
-puts "Suma: #{f1} + #{f2} = #{f1+f2}"
-puts "Resta: #{f1} - #{f2} = #{f1-f2}"
-puts "Multiplicación: #{f1} * #{f2} = #{f1*f2}"
-puts "División: #{f1} / #{f2} = #{f1/f2}"
+puts "Operaciones con números racionales: "
+puts "\n"
+
+puts "Fracción 1: "
+puts "#{f1.to_s}"
+puts "\n"
+puts "Fracción 2: "
+puts "#{f2.to_s}"
+puts "\n"
+puts "Suma: "
+puts "#{f1} + #{f2} = #{f1+f2}"
+puts "\n"
+puts "Resta: "
+puts "#{f1} - #{f2} = #{f1-f2}"
+puts "\n"
+puts "Multiplicación: "
+puts "#{f1} * #{f2} = #{f1*f2}"
+puts "\n"
+puts "División: "
+puts "#{f1} / #{f2} = #{f1/f2}"
 
